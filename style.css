@@ -1,91 +1,58 @@
+body {
+    background-color: lightblue;
+    justify-content:center;
+    align-items:center;
+    background-color: #f2f2f2;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom:20px;
+}
+
+
+label {
+    margin-top:12px;
+    font-weight:bold;
+}
+
+input, textarea {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+border: 1px solid #aaa;
+border-radius: 4px;
+}
+
 button {
-    width: 95%;
+ margin-top: 20px;
+ width: 100%;
     padding: 10px;
-    margin-top: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+ background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 4px;
 }
 
 button:hover {
-    background-color: #0056b3;
+ background-color: #08340a;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
+
+
+.login-form {
+    width:400px;
+margin:40px auto;
+padding:20px;
+ background-color: white;
+border: 1px solid #ccc;
+    border-radius:6px;
 }
-       *{
-            margin:auto;
-            margin-top:50px;
-       }
-       body{
-        background-color:bisque;
-       }
-
-        form {
-            background-color: #fff;
-            padding: 25px 30px;
-            width: 300px;
-            box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.2);
-        }
-
-        label {
-            margin-bottom: 6px;
-            font-weight: bold;
-        }
-
-        input {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-        }
-
-        input:focus {
-            border-color: #6c63ff;
-        }
-
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #6c63ff;
-            border: none;
-            color: white;
-            font-size: 16px;
-            border-radius: 6px;
-        }
-
-        button:hover {
-            background-color: #5548c8;
-        }
- 
-
-
-*{
-    background-color: antiquewhite;
+button:hover {
+ background-color: #08340a;
 }
 
-form{
-  margin: 0 auto;
-  max-width: 500px;
-  text-align: center;
-}
 
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-body {
-    background-color: lightblue;
-}
+
+
+
