@@ -46,3 +46,21 @@
  
 
 
+*{
+    background-color: antiquewhite;
+}
+
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+body {
+    background-color: lightblue;
+}
